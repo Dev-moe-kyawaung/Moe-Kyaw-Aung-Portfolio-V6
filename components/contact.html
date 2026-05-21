@@ -1,0 +1,161 @@
+<!--
+  components/contact.html
+  Contact Section — Moe-Kyaw-Aung-Portfolio V6
+  Requires: assets/js/forms.js for validation
+-->
+
+<section id="contact" style="background:var(--bg-secondary);" aria-labelledby="contact-heading">
+  <div class="container">
+
+    <!-- Section header -->
+    <header class="section-header fade-in">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title" id="contact-heading">
+        Let's <span>Work</span> Together
+      </h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        Have a project in mind? I'm always open to discussing new
+        opportunities — freelance, full-time, or collaboration.
+      </p>
+    </header>
+
+    <div class="contact-grid">
+
+      <!-- Contact info column -->
+      <address class="contact-info fade-in" style="font-style:normal;">
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa fa-envelope"></i></div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">
+              <a href="mailto:moekyawaung@asia.com">moekyawaung@asia.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa fa-phone"></i></div>
+          <div>
+            <div class="contact-label">Phone / WhatsApp</div>
+            <div class="contact-value">
+              <a href="tel:+959889000889">+95 988 9000 889</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa fa-location-dot"></i></div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Tachileik, Shan State, Myanmar</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">
+              <a href="https://github.com/Dev-moe-kyawaung" target="_blank" rel="noopener noreferrer">
+                Dev-moe-kyawaung ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa-brands fa-telegram"></i></div>
+          <div>
+            <div class="contact-label">Telegram</div>
+            <div class="contact-value">
+              <a href="https://t.me/moekyawaung" target="_blank" rel="noopener noreferrer">
+                @moekyawaung ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true"><i class="fa fa-user-circle"></i></div>
+          <div>
+            <div class="contact-label">Gravatar</div>
+            <div class="contact-value">
+              <a href="https://gravatar.com/moekyawaung2026" target="_blank" rel="noopener noreferrer">
+                moekyawaung2026 ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </address>
+
+      <!-- Contact form column -->
+      <div class="contact-form-wrap fade-in fade-in-delay-2">
+        <form id="contact-form" novalidate aria-label="Contact form">
+
+          <div class="form-group">
+            <label class="form-label" for="name">Full Name <span aria-label="required">*</span></label>
+            <input
+              class="form-input" type="text" id="name" name="name"
+              placeholder="Your full name"
+              autocomplete="name"
+              required
+              aria-required="true"
+              aria-describedby="name-error"
+            />
+            <div class="form-error" id="name-error" role="alert" aria-live="polite"></div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address <span aria-label="required">*</span></label>
+            <input
+              class="form-input" type="email" id="email" name="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+              required
+              aria-required="true"
+              aria-describedby="email-error"
+            />
+            <div class="form-error" id="email-error" role="alert" aria-live="polite"></div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject <span aria-label="required">*</span></label>
+            <input
+              class="form-input" type="text" id="subject" name="subject"
+              placeholder="Project enquiry / Collaboration / Hiring..."
+              required
+              aria-required="true"
+              aria-describedby="subject-error"
+            />
+            <div class="form-error" id="subject-error" role="alert" aria-live="polite"></div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message <span aria-label="required">*</span></label>
+            <textarea
+              class="form-textarea" id="message" name="message"
+              placeholder="Tell me about your project, timeline, and budget..."
+              required
+              aria-required="true"
+              aria-describedby="message-error"
+            ></textarea>
+            <div class="form-error" id="message-error" role="alert" aria-live="polite"></div>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            Send Message
+          </button>
+
+          <div class="form-success" id="form-success" role="alert" aria-live="polite">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            Message sent successfully! I'll reply within 24 hours. 🤖
+          </div>
+
+        </form>
+      </div>
+
+    </div><!-- /.contact-grid -->
+  </div><!-- /.container -->
+</section>

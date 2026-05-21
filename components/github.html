@@ -1,0 +1,94 @@
+<!--
+  components/github.html
+  GitHub Profile & Repositories Section — Portfolio V6
+  Shows: real GitHub avatar, stats, repo cards, contribution chart
+-->
+
+<section id="github" style="background:var(--bg-secondary);" aria-labelledby="github-heading">
+  <div class="container">
+
+    <header class="section-header fade-in">
+      <div class="section-label">Open Source</div>
+      <h2 class="section-title" id="github-heading">GitHub <span>Profile</span></h2>
+      <div class="divider"></div>
+    </header>
+
+    <!-- GitHub profile card -->
+    <div class="glass-card github-profile-hero fade-in">
+      <div class="github-avatar">
+        <img
+          src="https://avatars.githubusercontent.com/u/277224745?v=4"
+          alt="Dev-moe-kyawaung GitHub avatar"
+          width="90" height="90"
+          loading="lazy"
+        />
+      </div>
+      <div class="github-info">
+        <h3>Dev-moe-kyawaung</h3>
+        <p>Senior Android Developer · Tachileik, Myanmar · Joined April 2026</p>
+        <a href="https://github.com/Dev-moe-kyawaung" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          github.com/Dev-moe-kyawaung ↗
+        </a>
+        <div class="github-stats-row">
+          <div class="g-stat"><strong>22</strong>Repositories</div>
+          <div class="g-stat"><strong>18+</strong>Portfolio Stars</div>
+          <div class="g-stat"><strong>Quickdraw</strong>Achievement 🏆</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured repository cards -->
+    <div class="repos-grid" style="margin-top:1.5rem;">
+
+      <a href="https://github.com/Dev-moe-kyawaung/pulsesync-android" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>pulsesync-android</div>
+        <div class="repo-desc">Real-time sync platform — multi-module Clean Architecture, Firebase backend, offline-first design, full CI/CD with GitHub Actions, 87%+ Jacoco test coverage.</div>
+        <div class="repo-meta"><span class="repo-lang">Kotlin</span><span>⭐ 1</span></div>
+      </a>
+
+      <a href="https://github.com/Dev-moe-kyawaung/pulsesync-azure" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in fade-in-delay-1">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>pulsesync-azure</div>
+        <div class="repo-desc">Microsoft Azure integration — MSAL, Graph API, OpenAI, Cosmos DB, SignalR real-time, full Azure DevOps pipeline.</div>
+        <div class="repo-meta"><span class="repo-lang">Kotlin</span></div>
+      </a>
+
+      <a href="https://github.com/Dev-moe-kyawaung/Dev-moe-kyawaung.github.io" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in fade-in-delay-2">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>Portfolio Website</div>
+        <div class="repo-desc">Personal portfolio hosted on GitHub Pages. 18 stars from the community. Built with pure HTML/CSS/JS.</div>
+        <div class="repo-meta"><span class="repo-lang">HTML</span><span>⭐ 18</span></div>
+      </a>
+
+      <a href="https://github.com/Dev-moe-kyawaung/Android-Senior-Developer-Roadmaps-and-App-project" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in fade-in-delay-3">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>Android Roadmap</div>
+        <div class="repo-desc">Senior Android Developer roadmaps and sample application for the community — Clean Arch, Compose, testing.</div>
+        <div class="repo-meta"><span class="repo-lang">Kotlin</span></div>
+      </a>
+
+      <a href="https://github.com/Dev-moe-kyawaung/gitignore.io" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>gitignore.io</div>
+        <div class="repo-desc">Fork of toptal/gitignore.io — generate useful .gitignore files for any project and tech stack.</div>
+        <div class="repo-meta"><span class="repo-lang">Swift</span><span>⭐ 1</span></div>
+      </a>
+
+      <a href="https://github.com/Dev-moe-kyawaung/github-mcp-server" target="_blank" rel="noopener noreferrer" class="repo-card glass-card fade-in fade-in-delay-1">
+        <div class="repo-name"><i class="fa-brands fa-github" aria-hidden="true"></i>github-mcp-server</div>
+        <div class="repo-desc">Fork of GitHub's official MCP Server — Model Context Protocol integrations and AI-assisted developer workflows.</div>
+        <div class="repo-meta"><span class="repo-lang">Go</span><span>⭐ 1</span></div>
+      </a>
+
+    </div><!-- /.repos-grid -->
+
+    <!-- Contribution chart -->
+    <div style="margin-top:2rem;text-align:center;" class="fade-in">
+      <img
+        src="https://ghchart.rshah.org/b87333/Dev-moe-kyawaung"
+        alt="Moe Kyaw Aung's GitHub contribution activity chart"
+        style="border-radius:12px;max-width:100%;border:1px solid var(--glass-border);"
+        loading="lazy"
+        onerror="this.closest('div').style.display='none'"
+      />
+    </div>
+
+  </div><!-- /.container -->
+</section>
