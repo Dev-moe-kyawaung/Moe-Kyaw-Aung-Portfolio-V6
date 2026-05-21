@@ -1,0 +1,102 @@
+<!--
+  components/hero.html
+  Hero Section — Moe-Kyaw-Aung-Portfolio V6
+  Paste inside <body> after <nav>, before <section id="stats">
+  Requires: assets/css/variables.css, Font Awesome 6, Google Fonts (Syne, Outfit, Space Mono)
+-->
+
+<section id="hero" aria-label="Hero introduction">
+  <!-- Animated gradient video-style background -->
+  <div class="hero-video-bg" aria-hidden="true">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+  </div>
+
+  <!-- Main hero content -->
+  <div class="hero-content">
+    <!-- Status badge -->
+    <div class="hero-badge" role="status" aria-live="polite">
+      Available for opportunities
+    </div>
+
+    <!-- Headline -->
+    <h1 class="hero-title">
+      <span class="name-accent">Moe Kyaw Aung</span>
+      Android Senior Developer
+      <span class="name-sub">Kotlin · Jetpack Compose · Firebase · REST APIs</span>
+    </h1>
+
+    <!-- Description -->
+    <p class="hero-desc">
+      Senior Android Engineer from Tachileik, Myanmar — crafting scalable,
+      production-grade mobile applications with Clean Architecture, modern DevOps,
+      and a passion for exceptional user experience.
+    </p>
+
+    <!-- Tech stack tags -->
+    <div class="hero-stack" aria-label="Technology stack">
+      <span class="stack-tag">Kotlin</span>
+      <span class="stack-tag">Jetpack Compose</span>
+      <span class="stack-tag">Firebase</span>
+      <span class="stack-tag">REST APIs</span>
+      <span class="stack-tag">MVVM/MVI</span>
+      <span class="stack-tag">Clean Architecture</span>
+      <span class="stack-tag">GitHub Actions</span>
+      <span class="stack-tag">Azure DevOps</span>
+      <span class="stack-tag">Full Stack</span>
+    </div>
+
+    <!-- CTA buttons -->
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+        View Projects
+      </a>
+      <a href="#contact" class="btn-ghost">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        Hire Me
+      </a>
+    </div>
+  </div>
+
+  <!-- Desktop profile card (hidden on mobile) -->
+  <aside class="hero-profile" aria-label="Profile summary">
+    <div class="profile-card glass-card">
+      <div class="profile-avatar">
+        <img
+          src="https://avatars.githubusercontent.com/u/277224745?v=4"
+          alt="Moe Kyaw Aung profile photo"
+          width="100" height="100"
+          loading="eager"
+        />
+      </div>
+      <div class="profile-name">Moe Kyaw Aung</div>
+      <div class="profile-role">Android Senior Dev</div>
+      <div class="profile-loc">
+        <i class="fa fa-location-dot" aria-hidden="true"></i>
+        Tachileik, Myanmar
+      </div>
+      <nav class="profile-links" aria-label="Social links">
+        <a href="https://github.com/Dev-moe-kyawaung" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:moekyawaung@asia.com" aria-label="Send email">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a href="https://gravatar.com/moekyawaung2026" target="_blank" rel="noopener noreferrer" aria-label="Gravatar profile">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </a>
+        <a href="tel:+959889000889" aria-label="Call phone">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator" aria-hidden="true">
+    <i class="fa fa-chevron-down"></i>
+    <span>SCROLL</span>
+  </div>
+</section>
