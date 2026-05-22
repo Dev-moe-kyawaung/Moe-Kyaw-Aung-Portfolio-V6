@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/Dev-moe-kyawaung/Dev-moe-kyawaung.github.io?style=for-the-badge&color=b87333)
 
-**🌐 Live Site → [dev-moe-kyawaung.github.io]([https://dev-moe-kyawaung.github.io](https://dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Portfolio-V6/))**
+**🌐 Live Site → [dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Portfolio-V6/]([https://dev-moe-kyawaung.github.io](https://dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Portfolio-V6/))**
 
 *Android Senior Developer · Kotlin · Jetpack Compose · Firebase · REST APIs*  
 *Tachileik, Myanmar 🇲🇲*
